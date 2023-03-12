@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.table {
+    color: #FFF;
+    background-color: #3c3c3c;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.table tr>td {
+    width: 150px;
+    word-break: break-word;
+    text-align: center;
+}
+
+.table caption {
+    padding: 0 0 1.4rem 0;
+    text-transform: uppercase;
+}
+
+.table .editButton {
+    background-color: rgb(28, 28, 223);
+    color: white;
+    padding: 0.5rem;
+    outline: white 1px solid;
+    border: none;
+    cursor: pointer;
+}
+
+.table .deleteButton {
+    background-color: rgb(187, 33, 33);
+    color: white;
+    padding: 0.5rem;
+    outline: white 1px solid;
+    border: none;
+    cursor: pointer;
+}
+
